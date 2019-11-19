@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 817, y: 474}
-  m_MaxSize: {x: 22012, y: 14024}
+  m_MinSize: {x: 815, y: 474}
+  m_MaxSize: {x: 22010, y: 14024}
   vertical: 0
-  controlID: 159
+  controlID: 89
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,10 +214,10 @@ MonoBehaviour:
     y: 0
     width: 1276
     height: 947
-  m_MinSize: {x: 308, y: 348}
-  m_MaxSize: {x: 8008, y: 8048}
+  m_MinSize: {x: 308, y: 324}
+  m_MaxSize: {x: 8008, y: 8024}
   vertical: 1
-  controlID: 88
+  controlID: 90
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_MinSize: {x: 308, y: 224}
   m_MaxSize: {x: 8008, y: 4024}
   vertical: 0
-  controlID: 89
+  controlID: 91
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,8 +316,8 @@ MonoBehaviour:
     y: 599
     width: 1276
     height: 348
-  m_MinSize: {x: 104, y: 124}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -343,8 +343,8 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 947
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -398,7 +398,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7e4e0000
-      m_LastClickedID: 20094
-      m_ExpandedIDs: 08f9ffff
+      m_SelectedIDs: c43d0000
+      m_LastClickedID: 15812
+      m_ExpandedIDs: b2fbffffc43d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -523,7 +523,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/BayatGames/Free Platform Game Assets/Character/png/1x
+    - Assets/Art
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -536,7 +536,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c03b0000
     m_LastClickedID: 15296
-    m_ExpandedIDs: 00000000b03900002e3a0000523a0000243b0000183e0000ba3e000066400000a4410000dc4100003e420000b64200003c46000046460000bc480000dc480000904a0000c84a0000da4b0000ba4c0000c64c0000144d00006c4d0000b44f0000b64f0000b84f0000ba4f0000
+    m_ExpandedIDs: 000000001429000038290000642900000a2a0000002d0000a22d00005c2f0000d230000034310000ae3100003635000040350000b6370000d6370000ac3800009c390000d4390000e83a0000c83b0000d43b0000223c00007a3c0000243f0000263f0000283f00002a3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -561,24 +561,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 180}
+    scrollPos: {x: 0, y: 400}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b03900002e3a0000523a00007e3a0000243b0000183e0000ba3e000066400000dc4100003e420000b64200003c46000046460000bc480000dc480000904a0000c84a0000da4b0000ba4c0000c64c0000144d00006c4d0000b44f0000b64f0000b84f0000ba4f0000
+    m_ExpandedIDs: ffffffff0000000014290000382900000a2a0000002d0000a22d00005c2f00009a300000d230000034310000ae3100003635000040350000b6370000d6370000ac3800009c390000d4390000e83a0000c83b0000223c00007a3c0000243f0000263f0000283f00002a3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: sprite_sheet_jump-idle2
+      m_OriginalName: sprite_sheet_jump-idle2
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 14508
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -650,9 +650,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.1844991, y: -0.6068589, z: 0.012792003}
+    m_Target: {x: -1.2609336, y: -0.05203692, z: 0.001943187}
     speed: 2
-    m_Value: {x: -1.1844991, y: -0.6068589, z: 0.012792003}
+    m_Value: {x: -1.2609336, y: -0.05203692, z: 0.001943187}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -684,9 +684,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.1808808
+    m_Target: 3.26661
     speed: 2
-    m_Value: 2.1808808
+    m_Value: 3.26661
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -757,11 +757,11 @@ MonoBehaviour:
     - e00: 0.9219042
       e01: 0
       e02: 0
-      e03: -319.26163
+      e03: -318.26166
       e10: 0
       e11: 0.9219042
       e12: 0
-      e13: 106.07207
+      e13: 106.07208
       e20: 0
       e21: 0
       e22: 1
