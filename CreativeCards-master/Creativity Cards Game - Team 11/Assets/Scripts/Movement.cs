@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
     public float speed;
     public Vector2 jump;
     public bool jumped = false;
+    public Animator animator;
 
     private Rigidbody2D rb;
 
@@ -21,6 +22,8 @@ public class Movement : MonoBehaviour
     {
         float moveHorizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
 
+        animator.SetFloat("MoveSpeed", Mathf.Abs(moveHorizontal));
+
         transform.position = new Vector2(transform.position.x + moveHorizontal, transform.position.y);
 
         if ((Input.GetKeyDown(KeyCode.W)) & (!jumped))  //makes player jump
@@ -28,6 +31,7 @@ public class Movement : MonoBehaviour
             jumped = true;
             rb.AddForce(jump, ForceMode2D.Impulse);
             //Debug.Log("jumped");
+            animator.SetBool("IsJumping", true);
         }
 
     }
@@ -41,12 +45,14 @@ public class Movement : MonoBehaviour
         if (other.gameObject.tag == "Ground")
         {
             jumped = false;
+            animator.SetBool("IsJumping", false);
             //Debug.Log("ground hit");
         }
 
         if (other.gameObject.tag == "Platform")
         {
             jumped = false;
+            animator.SetBool("IsJumping", false);
             //Debug.Log("platform hit");
         }
 

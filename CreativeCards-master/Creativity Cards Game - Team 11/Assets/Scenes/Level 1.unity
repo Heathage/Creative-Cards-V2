@@ -762,6 +762,7 @@ MonoBehaviour:
   speed: 10
   jump: {x: 0, y: 10}
   jumped: 0
+  animator: {fileID: 767509164}
 --- !u!95 &767509164
 Animator:
   serializedVersion: 3
