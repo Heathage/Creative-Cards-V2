@@ -11,6 +11,7 @@ public class TideMovement : MonoBehaviour
     private Vector2 acceleration;
     private float stop = 0.0f;
     private bool check = false;
+    public GameObject ScriptHolder;
 
 
     void Awake()
@@ -40,6 +41,8 @@ public class TideMovement : MonoBehaviour
             Destroy(collision.gameObject);
             check = true;
             rb2d.velocity = new Vector2(stop, stop);
+            Time.timeScale = 0;
+            ScriptHolder.GetComponent<UIController>().IsDead = true;
         }
     }
 }
