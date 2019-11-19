@@ -1,7 +1,20 @@
 fileFormatVersion: 2
 guid: 1764d5c36815a5444ac2f5a94a37f4ba
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: CC sprite sheet_0
+    21300002: CC sprite sheet_1
+    21300004: CC sprite sheet_2
+    21300006: CC sprite sheet_3
+    21300008: CC sprite sheet_4
+    21300010: CC sprite sheet_5
+    21300012: CC sprite sheet_6
+    21300014: CC sprite sheet_7
+    21300016: CC sprite sheet_8
+    21300018: CC sprite sheet_9
+    21300020: CC sprite sheet_10
+    21300022: CC sprite sheet_11
+    21300024: CC sprite sheet_12
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -45,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,7 +150,267 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CC sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1342
+        width: 717
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da51693d50c139b4cac539dbe8f95d69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1345
+        width: 625
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0c28982920a8d48a819d080c7e4689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1342
+        width: 568
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1d18121c13e174c83c6781a9046f07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 1347
+        width: 460
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04611ae50f23d8543b6b38877405f071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 1337
+        width: 485
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75782553e4ee3ee4ead1a3fc033addd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 1337
+        width: 506
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8542513e3a64f4c8aeb261b6b91727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 212
+        width: 583
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dd2734927d2cc4ea40fe6eb9f77580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 213
+        width: 532
+        height: 978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1317e15f3be16494eb646797900212de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 221
+        width: 537
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37b571dfabd6664b8c70a2acf88a6eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 195
+        width: 518
+        height: 981
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d72d42f0bd3f5c469d0d141b07f8607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 213
+        width: 555
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d167e595a7cb6543bb3f84b2618278a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 198
+        width: 501
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f586d9acacfcc7741bfcd0aa04deae04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 196
+        width: 456
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae33a6f666f03c4297a637b15fbfd83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
