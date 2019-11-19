@@ -1259,9 +1259,9 @@ MonoBehaviour:
   player: {fileID: 767509161}
   minPositionPlatformX: -5
   maxPositionPlatformX: 5
-  startHeight: 0
+  startHeight: 2
   maxHeight: 100
-  platformDistance: 2
+  platformDistance: 2.5
   extraSpawnDistance: 15
 --- !u!1 &1082273298
 GameObject:
