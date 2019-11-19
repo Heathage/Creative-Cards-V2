@@ -9,6 +9,7 @@ TextureImporter:
     21300008: sprite_sheet_jump-idle2_4
     21300010: sprite_sheet_jump-idle2_5
     21300012: sprite_sheet_jump-idle2_6
+    21300014: sprite_sheet_jump-idle2_7
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -154,7 +155,7 @@ TextureImporter:
         width: 490
         height: 1043
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,7 +175,7 @@ TextureImporter:
         width: 488
         height: 1034
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,7 +195,7 @@ TextureImporter:
         width: 486
         height: 1026
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,7 +215,7 @@ TextureImporter:
         width: 492
         height: 1038
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,7 +235,7 @@ TextureImporter:
         width: 564
         height: 911
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,7 +255,7 @@ TextureImporter:
         width: 462
         height: 1042
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,13 +275,33 @@ TextureImporter:
         width: 448
         height: 1056
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 21cfcb3366138314c91c29ddca151edb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_jump-idle2_7
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 490
+        width: 254
+        height: 445
+      alignment: 9
+      pivot: {x: 0.26225126, y: 0.9150939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0428448bc5e8845a571c9950ed7970
       vertices: []
       indices: 
       edges: []
