@@ -45,7 +45,7 @@ public class PlatformSpawner : MonoBehaviour
 
     private void Update()
     {
-        currentPlayerHeight = player.position.y;
+        if (player != null) currentPlayerHeight = player.position.y;
         ComparePlayerDistance(currentPlayerHeight, spawnedPlatforms[spawnedPlatforms.Count - 1].transform.position.y, extraSpawnDistance);
     }
 
