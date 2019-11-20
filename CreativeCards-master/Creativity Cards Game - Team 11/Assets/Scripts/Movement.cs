@@ -11,18 +11,20 @@ public class Movement : MonoBehaviour
     public Animator animator;
 
     private Rigidbody2D rb;
+    private bool facingRight;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        facingRight = true;
     }
 
     private void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-
-        animator.SetFloat("MoveSpeed", Mathf.Abs(moveHorizontal));
+        float moveHorizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime; // defines player's axis
+        
+        animator.SetFloat("MoveSpeed", Mathf.Abs(moveHorizontal)); //makes player animate
 
         transform.position = new Vector2(transform.position.x + moveHorizontal, transform.position.y);
 
@@ -33,11 +35,23 @@ public class Movement : MonoBehaviour
             //Debug.Log("jumped");
             animator.SetBool("IsJumping", true);
         }
-
     }
+
+    /*private void Flip(float moveHorizontal)   //don't uncomment this unless you want to flip and fix the gun sprite as well
+    {
+        if(moveHorizontal > 0 && !facingRight || moveHorizontal < 0 && facingRight)
+        {
+            facingRight = !facingRight;
+
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+
+            transform.localScale = theScale;
+        }
+    }*/
+
     void FixedUpdate()
     {
-
     }
 
     void OnCollisionEnter2D(Collision2D other)

@@ -62,7 +62,7 @@ public class UIController : MonoBehaviour
 
         TimeLasted += Time.deltaTime;
         TimerText.text = "Time: " + TimeLasted.ToString("00");
-        ScoreText.text = "Score: " + Score.ToString();
+        ScoreText.text = "Infamy: " + Score.ToString();
 
 
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -85,7 +85,7 @@ public class UIController : MonoBehaviour
         if (IsDead == true)
         {
             pnlDead.SetActive(true);
-            FinalScore.text = "Final Score: " + (Score + TimeLasted).ToString("00");
+            FinalScore.text = "Infamy: " + (Score + TimeLasted).ToString("00");
             //Score.ToString() + TimeLasted.ToString("00");
         }
     }
