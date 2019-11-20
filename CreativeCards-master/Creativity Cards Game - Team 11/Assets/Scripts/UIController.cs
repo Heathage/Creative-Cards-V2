@@ -62,6 +62,8 @@ public class UIController : MonoBehaviour
 
         TimeLasted += Time.deltaTime;
         TimerText.text = "Time: " + TimeLasted.ToString("00");
+        ScoreText.text = "Score: " + Score.ToString();
+
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {

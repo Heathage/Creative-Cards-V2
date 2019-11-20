@@ -132,3 +132,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bouncesLeft: 3
+  ScriptHolder: {fileID: 0}
