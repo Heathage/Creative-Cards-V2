@@ -21,7 +21,7 @@ public class TideMovement : MonoBehaviour
 
         gameObject.GetComponent<BoxCollider2D>().offset = new Vector2(0.0f, -0.2f);
 
-        maxVelocity = new Vector2(0.0f, 3.0f);
+        maxVelocity = new Vector2(0.0f, 4.0f);
         acceleration = new Vector2(0.0f, 0.002f);
     }
 
