@@ -39,6 +39,7 @@ public class TideMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(collision.gameObject);
+            Destroy(GameObject.FindWithTag("Gun"));
             check = true;
             rb2d.velocity = new Vector2(stop, stop);
             Time.timeScale = 0;
