@@ -46,5 +46,10 @@ public class TideMovement : MonoBehaviour
             Time.timeScale = 0;
             ScriptHolder.GetComponent<UIController>().IsDead = true;
         }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
