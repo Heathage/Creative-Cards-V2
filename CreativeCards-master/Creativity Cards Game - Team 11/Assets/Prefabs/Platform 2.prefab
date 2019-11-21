@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5791908784750698210}
   - component: {fileID: 3948983253625267304}
+  - component: {fileID: 3074551263215273594}
   m_Layer: 0
   m_Name: Bottom
   m_TagString: Untagged
@@ -42,7 +43,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.006668806, y: 0.103782296}
   m_SpriteTilingProperty:
@@ -57,6 +58,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.0076585, y: 0.19588435}
   m_EdgeRadius: 0
+--- !u!251 &3074551263215273594
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377425877586158829}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &7624713946546580403
 GameObject:
   m_ObjectHideFlags: 0
@@ -69,6 +89,7 @@ GameObject:
   - component: {fileID: 7624713946546580401}
   - component: {fileID: 7624713946546580402}
   - component: {fileID: 7624713946546580399}
+  - component: {fileID: 6389592731372648454}
   m_Layer: 8
   m_Name: Platform 2
   m_TagString: Platform
@@ -151,7 +172,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.0162009, y: -0.4395802}
   m_SpriteTilingProperty:
@@ -192,6 +213,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.0404854, y: 0.21324551}
   m_EdgeRadius: 0
+--- !u!251 &6389592731372648454
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624713946546580403}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &5138705411913298209
 PrefabInstance:
   m_ObjectHideFlags: 0

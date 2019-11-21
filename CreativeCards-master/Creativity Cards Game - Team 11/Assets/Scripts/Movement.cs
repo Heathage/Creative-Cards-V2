@@ -10,6 +10,8 @@ public class Movement : MonoBehaviour
     public bool jumped = false;
     public Animator animator;
 
+    [SerializeField]
+    private float maxSpeed;
     private Rigidbody2D rb;
     private bool facingRight;
 
@@ -34,6 +36,17 @@ public class Movement : MonoBehaviour
             rb.AddForce(jump, ForceMode2D.Impulse);
             //Debug.Log("jumped");
             animator.SetBool("IsJumping", true);
+        }
+
+        LimitSpeed();
+    }
+
+    private void LimitSpeed()
+    {
+        //https://answers.unity.com/questions/265810/limiting-rigidbody-speed.html
+        if (rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = rb.velocity.normalized * maxSpeed;
         }
     }
 

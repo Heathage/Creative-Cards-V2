@@ -88,8 +88,6 @@ public class PlatformSpawner : MonoBehaviour
             Vector2 randomHeight = new Vector2(UnityEngine.Random.Range(minPositionPlatformX, maxPositionPlatformX), height);
             SpawnPlatforms(randomHeight);
         }
-
-        print(canSpawn);
         canSpawn = true;
     }
 
